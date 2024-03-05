@@ -4,8 +4,10 @@ import Login from "../components/login/login";
 import Signup from '../components/signup/signup'
 
 
-let x:MediaQueryList = window.matchMedia("(max-width: 1024px)")
-
+let x:MediaQueryList;
+if(typeof window !== 'undefined'){
+  x= window.matchMedia("(max-width: 1024px)")
+}
 
 const LoginSignup = () =>{
     const box = useRef<HTMLDivElement>()
