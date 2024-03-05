@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* #0e345a darkblue */
+/* #d0c606 yellow */
+
+@font-face {
+    font-family: font1;
+    src: url("../../public/fonts/Josefin_Slab/JosefinSlab-VariableFont_wght.ttf") format("opentype");
+}
+@font-face {
+    font-family: font2;
+    src: url("../../public/fonts/Nunito/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf") format("opentype");
+}
+@font-face {
+    font-family: font3;
+    src: url("../../public/fonts/Satisfy/Satisfy-Regular.ttf") format("opentype");
+}
