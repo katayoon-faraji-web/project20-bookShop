@@ -44,8 +44,8 @@ const Header:React.FC= ():React.ReactNode=> {
                 <li className='w-fit px-1 text-[20px] font-primary cursor-pointer hidden lg:flex justify-center items-center mx-2 hover:text-[#98ccff] transition-all duration-500'><Link href={'/about'}>about</Link></li>
                 <li className='w-fit px-1 text-[20px] font-primary cursor-pointer hidden lg:flex justify-center items-center mx-2 hover:text-[#98ccff] transition-all duration-500'><Link href={'/contact'}>contact</Link></li>
                 <li className='w-[120px] px-1 text-[20px] font-primary cursor-pointer hidden lg:flex justify-start items-center mx-2  hover:text-[#98ccff] transition-all duration-500'><FallbackAvatars/><Link href={'/loginsignup'}> {User}</Link></li>
-                <li onClick={toggle_cart} className='w-fit px-1 text-[20px] font-primary cursor-pointer flex  justify-center items-center mx-2 hover:text-[#98ccff] transition-all duration-500 '><span className='flex text-[#0e345a]'>{wholeNumber}</span><Link href={'/'}><ShoppingCartIcon className='text-[#0e345a] text-[30px]'/></Link></li>
-                <li onClick={toggle_menu} className='w-fit px-1 text-[20px] font-primary cursor-pointer flex lg:hidden justify-center items-center mx-2 hover:text-[#98ccff] transition-all duration-500'><Link href={'/'}><MenuIcon className='text-[#0e345a] text-[30px]'/></Link></li>
+                <li onClick={toggle_cart} className='w-fit px-1 text-[20px] font-primary cursor-pointer flex  justify-center items-center mx-2 hover:text-[#98ccff] transition-all duration-500 '><span className='flex text-[#0e345a]'>{wholeNumber}</span><ShoppingCartIcon className='text-[#0e345a] text-[30px]'/></li>
+                <li onClick={toggle_menu} className='w-fit px-1 text-[20px] font-primary cursor-pointer flex lg:hidden justify-center items-center mx-2 hover:text-[#98ccff] transition-all duration-500'><MenuIcon className='text-[#0e345a] text-[30px]'/></li>
             </ul>
             <Cart/>
             <Menu/>
